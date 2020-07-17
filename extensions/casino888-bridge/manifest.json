@@ -1,0 +1,21 @@
+{
+  "name": "CASINO 888 Bridge",
+  "description": "CASINO 888 Bridge",
+  "version": "1.0",
+  "icons": {
+	"48":"icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "debugger"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "CASINO 888 Bridge"
+  },
+  "manifest_version": 2
+}
+
