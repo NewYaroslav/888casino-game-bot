@@ -50,3 +50,15 @@ https://stackoverflow.com/questions/28024792/how-to-attach-debugger-to-device-ch
 
 ### Network Domain
 https://chromedevtools.github.io/devtools-protocol/tot/Network/#type-MonotonicTime
+
+### Надпись на рабочем столе
+https://www.cyberforum.ru/cpp-builder/thread149894.html
+
+### Рисование креста на мониторе
+https://www.cyberforum.ru/win-api/thread1979476.html#post10430248
+
+### C ++ Рисование прямо на экран (как наложение)
+https://stackoverrun.com/ru/q/6861510
+
+https://elcharolin.wordpress.com/2015/01/24/wndproc-as-a-class-member-win32/
+https://stackoverflow.com/questions/35178779/wndproc-as-class-method

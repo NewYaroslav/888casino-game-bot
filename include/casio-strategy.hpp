@@ -47,6 +47,10 @@ namespace casino {
                 if(signal == TypesSignal::ZERO) return std::string("ZERO");
                 return std::string();
             }
+
+            void clear() {
+                step = 0;
+            }
         };
 
     private:
@@ -235,6 +239,10 @@ namespace casino {
 
     public:
 
+        /** \brief Обновить состояние стратегии
+         * \param signal Состояние сигнала (итог  последней ставки)
+         * \param new_bet Новая сделка
+         */
         void update(const TypesSignal signal, Bet &new_bet) {
             new_bet.step = 0;
             new_bet.signal = signal;
@@ -263,6 +271,20 @@ namespace casino {
             default:
                 break;
             };
+        }
+
+        /** \brief Очистить состояние стратегии
+         */
+        void clear() {
+            step = 0;
+            step_max = 0;
+            skip_step = 0;
+            skip_step_max = 0;
+            skip = false;
+            is_zero = false;
+            zero_bet_step = 0;
+            series_bet_step = 0;
+            is_series = false;
         }
     };
 

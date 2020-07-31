@@ -1,0 +1,1 @@
+start "" "Live Casino New - Roulette.lnk"
